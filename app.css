@@ -22,25 +22,38 @@ nav {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  padding: 1rem;
+  padding: 0.7rem;
 }
-
+.nav-header img {
+  width: 12.8rem;
+  padding-top: 0.3rem;
+  padding-left: 0.4rem;
+}
 .links {
   display: flex;
 }
 
-.links a{
-    padding: 0;
-    margin: 0 0.5rem;
+.links a {
+  color: hsl(209, 34%, 30%);
+  padding: 0;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+  margin: 0 0.8rem;
+  font-size: 1rem;
 }
 
-.social-icons{
+.links a:hover{
+  color:
+}
+
+.social-icons {
   display: flex;
 }
 
-.social-icons a{
-    padding:0;
-    margin: 0 0.2rem;
+.social-icons a {
+  color:;
+  padding: 0;
+  margin: 0 0.7rem;
 }
 li,
 li a {
