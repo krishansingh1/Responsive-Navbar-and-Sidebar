@@ -19,10 +19,12 @@ nav {
 }
 
 .nav-center {
+  max-width: 1170px;
   display: flex;
   align-items: center;
   justify-content: space-between;
   padding: 0.7rem;
+  margin: 0 auto;
 }
 .nav-header img {
   width: 12.8rem;
@@ -42,8 +44,11 @@ nav {
   font-size: 1rem;
 }
 
-.links a:hover{
-  color:
+.links a:hover {
+  padding: 0;
+  background: transparent;
+  color: hsl(205, 78%, 60%);
+  transition: all 0.3s linear;
 }
 
 .social-icons {
@@ -51,10 +56,15 @@ nav {
 }
 
 .social-icons a {
-  color:;
+  color: hsl(205, 78%, 60%);
   padding: 0;
   margin: 0 0.7rem;
 }
+.social-icons a :hover {
+  color: hsl(205, 86%, 81%);
+  transition: all 0.3s linear;
+}
+
 li,
 li a {
   text-decoration: none;
