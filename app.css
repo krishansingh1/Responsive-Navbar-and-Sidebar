@@ -70,3 +70,10 @@ li a {
   text-decoration: none;
   list-style-type: none;
 }
+
+@media screen and(max-width:800px) {
+  
+  .links{
+    font-size: 50rem;
+  }
+}
