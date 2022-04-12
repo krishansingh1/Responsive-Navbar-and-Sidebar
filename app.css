@@ -17,8 +17,53 @@ nav {
   background: #fff;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
 }
-
 .nav-center {
+  max-width: 1170px;
+  padding: 1rem;
+}
+
+img {
+  width: 13rem;
+}
+
+.nav-header {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 0.8rem;
+}
+
+button {
+  border: none;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+li,
+li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.links a {
+  color: hsl(209, 34%, 30%);
+  font-size: 1rem;
+  display: block;
+  font-weight: lighter;
+  padding: 0.6rem 0rem;
+  letter-spacing: 0.25rem;
+  text-transform: capitalize;
+  transition: all 0.3s linear;
+}
+
+.links a:hover {
+  background: ;
+  color: ;
+  padding-left: ;
+}
+.social-icons {
+  display: none;
+}
+/* .nav-center {
   max-width: 1170px;
   display: flex;
   align-items: center;
@@ -63,17 +108,4 @@ nav {
 .social-icons a :hover {
   color: hsl(205, 86%, 81%);
   transition: all 0.3s linear;
-}
-
-li,
-li a {
-  text-decoration: none;
-  list-style-type: none;
-}
-
-@media screen and(max-width:800px) {
-  
-  .links{
-    font-size: 50rem;
-  }
-}
+}*/
