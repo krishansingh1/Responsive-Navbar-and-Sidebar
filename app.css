@@ -29,7 +29,6 @@ img {
 .nav-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.9rem;
 }
 
 .nav-toogle {
@@ -42,12 +41,19 @@ img {
   transition: all 0.3s linear;
 }
 
+.nav-toogle:hover {
+  color: hsl(205, 86%, 17%);
+  transform: rotate(90deg);
+}
 li,
 li a {
   text-decoration: none;
   list-style-type: none;
 }
 
+.logo{
+  height: 40px;
+}
 .links a {
   color: hsl(209, 34%, 30%);
   font-size: 1rem;
@@ -66,6 +72,15 @@ li a {
 }
 .social-icons {
   display: none;
+}
+
+.links{
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+.show-links{
+  height: 10rem;
 }
 /* .nav-center {
   max-width: 1170px;
