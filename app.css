@@ -23,19 +23,23 @@ nav {
 }
 
 img {
-  width: 13rem;
+  width: 12rem;
 }
 
 .nav-header {
   display: flex;
   justify-content: space-between;
-  margin-bottom: 0.8rem;
+  margin-bottom: 0.9rem;
 }
 
-button {
-  border: none;
+.nav-toogle {
+  border-color: transparent;
   background: transparent;
   font-size: 1.5rem;
+  cursor: pointer;
+  color: hsl(205, 78%, 60%);
+  margin-right: 0.2rem;
+  transition: all 0.3s linear;
 }
 
 li,
@@ -56,9 +60,9 @@ li a {
 }
 
 .links a:hover {
-  background: ;
-  color: ;
-  padding-left: ;
+  background: hsl(205, 86%, 81%);
+  color: hsl(205, 78%, 60%);
+  padding-left: 1rem;
 }
 .social-icons {
   display: none;
