@@ -17,10 +17,9 @@ body {
 
 .nav-center {
   background: #fff;
-  /* width: 100%;
-  height: 100%; */
   padding: 0.6rem;
   margin: 0 auto;
+  height: 500px;
 }
 
 .nav-header {
@@ -39,4 +38,16 @@ body {
   padding-right: 1rem;
   font-size: 1.8rem;
   color: hsl(360, 67%, 44%);
+}
+
+li,
+li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.links a{
+  color:red;
+  padding: 1rem 1.5rem;
+  font-size: 1.5rem;
 }
