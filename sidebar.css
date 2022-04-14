@@ -83,22 +83,30 @@ li a {
   list-style-type: none;
 }
 
+.links{
+  margin-top: 0.7rem;
+}
 .links a {
   display: block;
-  margin-top: 1.68rem;
-  padding-left: 1.58rem;
   font-size: 1.5rem;
+  color: hsl(210, 22%, 49%);
+  padding: 1rem 1.5rem;
 }
 
+.links a:hover{
+  background: hsl(205, 78%, 60%);
+  padding-left: 2rem;
+  transition: all 0.3s linear;
+}
 .social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 15rem;
+  margin-top: 12.5rem;
 }
 
 .social-icons a {
-  padding: 0 1rem;
+  padding: 0 1.5rem;
   color: hsl(205, 78%, 60%);
   font-size: 1.5rem;
 }
