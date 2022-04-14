@@ -15,39 +15,32 @@ body {
   font-size: 0.875rem;
 }
 
-.nav-center {
-  background: #fff;
-  padding: 0.6rem;
-  margin: 0 auto;
-  height: 500px;
-}
-
-.nav-header {
-  display: flex;
-  justify-content: space-between;
-}
-
-.logo {
-  width: 14rem;
-  justify-self: center;
-}
-
-.nav-toggle {
-  border-color: transparent;
+.sidebar-toggle {
+  position: fixed;
+  top: 1.8rem;
+  right: 2.8rem;
   background: transparent;
-  padding-right: 1rem;
-  font-size: 1.8rem;
-  color: hsl(360, 67%, 44%);
+  border-color: transparent;
+  color: hsl(205, 78%, 60%);
+  font-size: 2rem;
+  border-radius: none;
+  transition: all 0.3s linear;
+  cursor: pointer;
 }
 
-li,
-li a {
-  text-decoration: none;
-  list-style-type: none;
+.sidebar-toggle:hover {
+  color: hsl(205, 90%, 76%);
+  animation: bounce 2s ease-in-out infinite;
 }
 
-.links a{
-  color:red;
-  padding: 1rem 1.5rem;
-  font-size: 1.5rem;
+@keyframes bounce {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.5);
+  }
+  100% {
+    transform: scale(1);
+  }
 }
