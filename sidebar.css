@@ -11,6 +11,7 @@
 body {
   background: hsl(210, 36%, 96%);
   font-family: "Open Sans", sans-serif;
+  color: hsl(209, 61%, 16%);
   line-height: 1.5;
   font-size: 0.875rem;
 }
@@ -45,6 +46,20 @@ body {
   }
 }
 
-.sidebar {
+/* .sidebar {
   background: #fff;
+  padding: 1rem;
+} */
+
+.sidebar-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1.5rem;
 }
+
+.logo {
+  justify-self: center;
+  height: 40px;
+}
+
