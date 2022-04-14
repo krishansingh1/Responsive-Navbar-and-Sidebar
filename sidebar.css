@@ -57,9 +57,43 @@ body {
   align-items: center;
   padding: 1rem 1.5rem;
 }
+.close-btn {
+  background: transparent;
+  border-color: transparent;
+  font-size: 1.8rem;
+  color: hsl(205, 78%, 60%);
+  cursor: pointer;
+  transition: all 0.3s linear;
+  color: hsl(360, 67%, 44%);
+}
+
+.close-btn:hover {
+  color: hsl(360, 71%, 66%);
+  transform: rotate(360deg);
+}
 
 .logo {
   justify-self: center;
   height: 40px;
 }
 
+li,
+li a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.links a {
+  display: block;
+
+}
+
+.social-icons{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 28rem;
+}
+.social-icons a{
+  padding: 1rem 1.5rem;
+}
