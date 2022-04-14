@@ -85,15 +85,24 @@ li a {
 
 .links a {
   display: block;
-
+  margin-top: 1.68rem;
+  padding-left: 1.58rem;
+  font-size: 1.5rem;
 }
 
-.social-icons{
+.social-icons {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 28rem;
+  margin-top: 15rem;
 }
-.social-icons a{
-  padding: 1rem 1.5rem;
+
+.social-icons a {
+  padding: 0 1rem;
+  color: hsl(205, 78%, 60%);
+  font-size: 1.5rem;
+}
+
+.social-icons a:hover{
+  color: hsl(209, 61%, 16%);
 }
